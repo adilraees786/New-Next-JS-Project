@@ -13,8 +13,8 @@ const Headertop = () => {
                         <div className=' header_top_icon_wrapper'>  <FaInstagram /> </div>
                         <div className=' header_top_icon_wrapper'>  <FaLinkedin /> </div>
                     </div>
-                    <div className=' flex items-center gap-1'>
-                        
+                    <div className=' text-gray-500 text-[12px] '>
+                       <b>FREE SHIPPING</b>  THIS WEEK ORDER OVER - $55
                     </div>
                 </div>
             </div>
