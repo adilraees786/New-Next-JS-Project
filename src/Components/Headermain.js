@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaSearch } from 'react-icons/fa'
+
 
  const Headermain = () => {
   return (
@@ -12,6 +14,7 @@ import React from 'react'
  className=' border-gray-200 border p-2 px-4 rounded-lg w-full'
  type='text'
   placeholder='Enter any product name...'/>
+  <FaSearch className=' absolute right-0 top-0 mr-3 mt-3 text-gray-400  ' size={20}/>
     </div>
 
 </div>
