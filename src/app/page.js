@@ -1,10 +1,8 @@
 
 import React from 'react'
 
- const page = () => {
+export default function Home(){
   return (
-    <div>page</div>
+    <main></main>
   )
 }
-
-export default  page;
