@@ -11,6 +11,30 @@ const Navbar = () => {
 href="#">
   Home
   </Link>
+<Link className=" navbar__link relative" 
+href="#">
+  CATEGORIES
+  </Link>
+<Link className=" navbar__link relative" 
+href="#">
+  MEN'S
+  </Link>
+<Link className=" navbar__link relative" 
+href="#">
+  JEWELRY
+  </Link>
+<Link className=" navbar__link relative" 
+href="#">
+  PERFUME
+  </Link>
+<Link className=" navbar__link relative" 
+href="#">
+  BLOGS
+  </Link>
+<Link className=" navbar__link relative" 
+href="#">
+  HOT OFFERS
+  </Link>
         </div>
       </div>
     </div>
