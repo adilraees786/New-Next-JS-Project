@@ -21,7 +21,19 @@ const Headertop = () => {
                          text-[12px] w-[70px]'
                          name='Currency'
                          id='currency'>
+                            <option value='USD $'>USD $</option>
+                            <option value='EUR €'>EUR €</option>
+                            <option value='INR'>INR</option>
+                            
+                        </select>
 
+                        <select className=' text-gray-500
+                         text-[12px] w-[80px]'
+                         name='language'
+                         id='language'>
+                            <option value='English'>English</option>
+                            <option value='French'>French</option>
+                           
                         </select>
 
                     </div>
