@@ -37,6 +37,16 @@ const Slide= (img, title, mainTitle,price) => {
           bg-[#ffffffa2] sm:bg-transparent p-4
            sm:p-0 rounded-lg sm:rounded-none'>
             <h3 className=' text-accent text-[24px] lg:text-[28px]'>{title}</h3>
+            <h2 className=' text-blackish text-[26px] md:text-[30px] lg:text-[44px]'>{mainTitle}</h2>
+<h3 className=' text-[24px] text-gray-500 '>
+    Starting at
+    <b className=' text-[20px] md:text-[24px] lg:text-[30px]'>
+        {price}
+    </b>
+</h3>
+<div className=''>
+
+</div>
 
 
         </div>
