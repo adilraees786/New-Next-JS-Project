@@ -5,7 +5,7 @@ import React from 'react'
         img: "/jacket.jpg",
         title: "JACKET",
         desc:"MEN Yarn Fleece Full-Zip Jacket",
-        rating: 5,
+        rating: 4,
         price: "58.00"
 
     },
@@ -13,7 +13,7 @@ import React from 'react'
         img: "/skirt-1.jpg",
         title: "SKIRT",
         desc:"Black Floral Wrap Midi Skirt",
-        rating: 4,
+        rating: 5,
         price: "80.00"
 
     },
@@ -66,6 +66,21 @@ const Products = () => {
     <div>
        <div className=' container pt-16'>
         <h2 className=' font-medium text-2xl pb-4'>New Products</h2>
+        <div className=' grid grid-cols-1 place-items-center sm:place-items-start
+        sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-10
+        xl:gap-x-20 xl:gap-y-10'>
+            {Productdata.map((item, index) => (
+                <ProductCard key={index}
+                img={item.img}
+                title={item.title}
+                desc={item.desc}
+                rating={item.rating}
+                price={item.price}
+            
+                />
+        ))}
+
+        </div>
         </div> 
     </div>
   )
