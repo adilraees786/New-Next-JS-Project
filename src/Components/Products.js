@@ -4,7 +4,7 @@ import ProductCard from './ProductCard';
 
  const Productdata=[
     {
-        img: "/jacket.jpg",
+        img: "/jacket-1.jpg",
         title: "JACKET",
         desc:"MEN Yarn Fleece Full-Zip Jacket",
         rating: 4,
@@ -12,7 +12,7 @@ import ProductCard from './ProductCard';
 
     },
     {
-        img: "/skirt-1.jpg",
+      img:"/skirt-1.jpg",
         title: "SKIRT",
         desc:"Black Floral Wrap Midi Skirt",
         rating: 5,
@@ -20,7 +20,7 @@ import ProductCard from './ProductCard';
 
     },
     {
-        img: "/party-wear-1.jpg",
+        img: "/party-Wear-1.jpg",
         title: "Party Wear",
         desc:"Women's Party Wear Shoes",
         rating: 3,
@@ -28,7 +28,7 @@ import ProductCard from './ProductCard';
 
     },
     {
-        img: "/shirt-1.jpg",
+        img:"/shirt-1.jpg",
         title: "SHIRT",
         desc:"Pure Garment Dyed Cotton Shirt",
         rating: 4,
