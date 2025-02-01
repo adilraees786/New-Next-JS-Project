@@ -56,14 +56,18 @@ import React from 'react'
         rating: 4,
         price: "145.00"
 
-    },
+    }
    
- ]
+ ];
 
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <div>
+       <div className=' container pt-16'>
+        <h2 className=' font-medium text-2xl pb-4'>New Products</h2>
+        </div> 
+    </div>
   )
 }
 
