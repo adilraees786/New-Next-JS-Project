@@ -31,7 +31,7 @@ const ProductCard = ({ img, title, desc, rating, price }) => {
                 <div>{generateRating(rating)}</div>
                 <div className='font-bold flex gap-4 text-lg text-green-600'>
                     ${price} 
-                    <del className='text-gray-400'>
+                    <del className='text-gray-500 font-normal'>
                         ${parseInt(price) + 50}.00
                     </del>
                 </div>
