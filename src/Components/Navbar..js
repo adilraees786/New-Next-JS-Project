@@ -14,7 +14,7 @@ href="/">
   Home
   </Link>
 <Link className=" navbar__link relative" 
-href="/categorie">
+href="/category">
   CATEGORIES
   </Link>
 <Link className=" navbar__link relative" 
@@ -26,15 +26,15 @@ href="/jewelry">
   JEWELRY
   </Link>
 <Link className=" navbar__link relative" 
-href="#">
+href="/perfume">
   PERFUME
   </Link>
 <Link className=" navbar__link relative" 
-href="#">
+href="/blogs">
   BLOGS
   </Link>
 <Link className=" navbar__link relative" 
-href="#">
+href="/hotoffer">
   HOT OFFERS
   </Link>
         </div>
