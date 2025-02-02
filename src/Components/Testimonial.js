@@ -6,7 +6,7 @@ const Testimonial = () => {
         <div>
             <div className=' container pt-16 pb-16 grid-cols-2 '>
                 <h2 className=' font-medium text-2xl pb-4'>Testimonial</h2>
-                <div className=' grid lg:grid-cols-[300px, 1fr] gap-4'>
+                <div className=' grid lg:grid-cols-[300px,1fr] gap-4'>
                     <div className=' border border-gray-300 rounded-2xl grid place-items-center p-6 lg:p-0'>
                         <div className=' text-center flex flex-col items-center gap-1'>
                             <Image
@@ -28,7 +28,10 @@ const Testimonial = () => {
                         alt="quotes"
                         />
                         <p className=' max-w-[200px] text-gray-500'>
-                           Chota don
+                        "E-commerce shopping" refers to the act of buying and selling goods or services online,
+                         essentially meaning you purchase items through a digital platform like a website or
+                          mobile app, instead of visiting a physical store; it's short for "electronic commerce".
+                          
 
 
 
