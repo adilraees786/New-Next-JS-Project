@@ -10,19 +10,19 @@ const Navbar = () => {
       <div className=' container'>
         <div className='flex  w-fit gap-10 mx-auto font-medium py-4 text-blackish'>
 <Link className=" navbar__link relative" 
-href="#">
+href="/">
   Home
   </Link>
 <Link className=" navbar__link relative" 
-href="#">
+href="/categorie">
   CATEGORIES
   </Link>
 <Link className=" navbar__link relative" 
-href="#">
+href="/mens">
   MEN'S
   </Link>
 <Link className=" navbar__link relative" 
-href="#">
+href="/jewelry">
   JEWELRY
   </Link>
 <Link className=" navbar__link relative" 
