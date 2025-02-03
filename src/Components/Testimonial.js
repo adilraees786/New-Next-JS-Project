@@ -8,7 +8,7 @@ const Testimonial = () => {
             <div className="container pt-16 pb-16 grid-cols-2">
                 <h2 className="font-medium text-2xl pb-4">Testimonial</h2>
                 <div className="grid lg:grid-cols-[300px,1fr] gap-4">
-                    {/* Testimonial Card */}
+                 
                     <div className="border border-gray-300 rounded-2xl grid place-items-center p-6 lg:p-0">
                         <div className="text-center flex flex-col items-center gap-1">
                             <Image
@@ -37,7 +37,7 @@ const Testimonial = () => {
                         </div>
                     </div>
 
-                    {/* Summer Collection Section */}
+                
                     <div
                         className="bg-red-600 bg-[url(/summer.jpg)] bg-cover h-[480px] rounded-2xl grid place-items-center"
                     >
