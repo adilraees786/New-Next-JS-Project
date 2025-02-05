@@ -1,5 +1,6 @@
 import React from 'react';
-import { Star } from 'lucide-react';
+
+import { AiFillStar, AiOutlineStar } from "react-icons/ai"
 
 const HotOfferData = [
   {
@@ -60,6 +61,17 @@ const HotOfferData = [
   }
 ];
 
+
+const generateRating = (rating) => {
+    return (
+        <div className='flex gap-1 text-[20px] text-[#FF9529]'>
+            {Array(5).fill(0).map((_, index) => (
+                index < rating ? <AiFillStar key={index} /> : <AiOutlineStar key={index} />
+            ))}
+        </div>
+    );
+};
+
 const HotOfferCard = ({ img, title, desc, rating, price }) => {
   return (
     <div className='bg-white rounded-2xl shadow-lg p-4 hover:scale-105 transition-transform'>
@@ -67,9 +79,7 @@ const HotOfferCard = ({ img, title, desc, rating, price }) => {
       <h3 className='text-lg font-semibold mt-4'>{title}</h3>
       <p className='text-gray-500 text-sm mt-2'>{desc}</p>
       <div className='flex items-center mt-2'>
-        {Array(rating).fill(0).map((_, i) => (
-          <Star key={i} className='text-yellow-400 w-4 h-4'/>
-        ))}
+      <div>{generateRating(rating)}</div>
       </div>
       <div className='font-bold flex gap-4 text-lg text-green-600'>
                     ${price} 

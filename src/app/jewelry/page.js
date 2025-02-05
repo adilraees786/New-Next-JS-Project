@@ -11,6 +11,7 @@
 
 import React from 'react';
 import JewelryCard from './JewelryCard';
+import { AiFillStar, AiOutlineStar } from "react-icons/ai"
 
 const JewelryData = [
   {
@@ -63,6 +64,16 @@ const JewelryData = [
     price: "600.00"
   }
 ];
+
+const generateRating = (rating) => {
+    return (
+        <div className='flex gap-1 text-[20px] text-[#FF9529]'>
+            {Array(5).fill(0).map((_, index) => (
+                index < rating ? <AiFillStar key={index} /> : <AiOutlineStar key={index} />
+            ))}
+        </div>
+    );
+};
 
 const Jewelry = () => {
   return (
