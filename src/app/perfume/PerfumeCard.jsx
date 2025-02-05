@@ -13,7 +13,12 @@ const PerfumeCard = ({ img, title, desc, rating, price }) => {
           <span className="text-yellow-400">{"★".repeat(rating)}</span>
           <span className="text-gray-400">{"★".repeat(5 - rating)}</span>
         </div>
-        <p className="text-lg font-bold mt-2">${price}</p>
+        <div className='font-bold flex gap-4 text-lg text-green-600'>
+                    ${price} 
+                    <del className='text-gray-500 font-normal'>
+                        ${parseInt(price) + 50}.00
+                    </del>
+                </div>
       </div>
     </div>
   );

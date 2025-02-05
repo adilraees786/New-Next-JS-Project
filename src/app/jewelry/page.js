@@ -18,49 +18,49 @@ const JewelryData = [
     title: "Diamond Necklace",
     desc: "Elegant diamond necklace for special occasions.",
     rating: 5,
-    price: "$1200.00"
+    price: "1200.00"
   },
   {
     img: "https://th.bing.com/th/id/OIP.pAjmO0hIA5hCJGzSYRMPlAHaHa?w=1280&h=1280&rs=1&pid=ImgDetMain",
     title: "Gold Bracelet",
     desc: "Classic gold bracelet for everyday wear.",
     rating: 4,
-    price: "$350.00"
+    price: "350.00"
   },
   {
     img: "https://th.bing.com/th/id/OIP.s3VSuUuBzMelK5URts7CAwHaFj?w=4096&h=3072&rs=1&pid=ImgDetMain",
     title: "Pearl Earrings",
     desc: "Timeless pearl earrings for a sophisticated look.",
     rating: 5,
-    price: "$250.00"
+    price: "250.00"
   },
   {
     img: "https://www.pngmart.com/files/4/Silver-Ring-PNG-HD.png",
     title: "Silver Ring",
     desc: "Minimalist silver ring for a modern touch.",
     rating: 4,
-    price: "$150.00"
+    price: "50.00"
   },
   {
     img: "https://th.bing.com/th/id/OIP.FslWnvRQj7cxmLznHivxDgHaHa?rs=1&pid=ImgDetMain",
     title: "Platinum Pendant",
     desc: "Luxurious platinum pendant for a statement look.",
     rating: 5,
-    price: "$800.00"
+    price: "800.00"
   },
   {
     img: "https://th.bing.com/th/id/OIP.gX8Wpl-4jsq-PZ5dwzbykgHaHV?w=1170&h=1159&rs=1&pid=ImgDetMain",
     title: "Rose Gold Watch",
     desc: "Stylish rose gold watch for a chic look.",
     rating: 4,
-    price: "$500.00"
+    price: "500.00"
   },
   {
     img: "https://th.bing.com/th/id/R.7fbeb23eafabb9539a775a4088f58c4d?rik=%2bFf6edpT%2bH7new&pid=ImgRaw&r=0",
     title: "Diamond Earrings",
     desc: "Sparkling diamond earrings for a glamorous look.",
     rating: 5,
-    price: "$600.00"
+    price: "600.00"
   }
 ];
 

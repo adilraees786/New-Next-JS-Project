@@ -38,7 +38,13 @@ const JewelryCard = ({ img, title, desc, rating, price }) => {
             </svg>
           ))}
         </div>
-        <p className='text-lg font-bold mt-2'>{price}</p>
+        <div className='font-bold flex gap-4 text-lg text-green-600'>
+                    ${price} 
+                    <del className='text-gray-500 font-normal'>
+                        ${parseInt(price) + 50}.00
+                    </del>
+                </div>
+        
       </div>
     </div>
   );
