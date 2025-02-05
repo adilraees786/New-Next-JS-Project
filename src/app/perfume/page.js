@@ -26,35 +26,35 @@ const PerfumeData = [
     price: "135.00"
   },
   {
-    img: "https://example.com/perfume4.jpg",
+    img: "https://www.jomalone.eu/media/export/cms/products/1000x1000/jo_sku_L3AF01_1000x1000_0.png",
     title: "Jo Malone Peony & Blush Suede",
     desc: "Delicate floral scent with a hint of suede.",
     rating: 4,
     price: "110.00"
   },
   {
-    img: "https://example.com/perfume5.jpg",
+    img: "https://www.shutterstock.com/shutterstock/photos/2492509127/display_1500/stock-photo-yalova-turkey-yves-saint-laurent-electrique-perfume-yves-saint-laurent-electrique-2492509127.jpg",
     title: "Yves Saint Laurent Libre",
     desc: "Bold and floral fragrance for women.",
     rating: 5,
     price: "140.00"
   },
   {
-    img: "https://example.com/perfume6.jpg",
+    img: "https://www.shutterstock.com/shutterstock/photos/1299643087/display_1500/stock-photo-winneconne-wi-january-a-bottle-of-creed-aventus-cologne-on-an-isolated-background-1299643087.jpg",
     title: "Creed Aventus",
     desc: "Rich and fruity scent for men.",
     rating: 5,
     price: "250.00"
   },
   {
-    img: "https://example.com/perfume7.jpg",
+    img: "https://media.gucci.com/content/BestOfEditsFeatured_Standard_432x364/1615383903/BestOfEditsFeatured_Bloom-Eau-de-Parfum-packaging_001_Default.jpg",
     title: "Gucci Bloom",
     desc: "Floral fragrance with a fresh twist.",
     rating: 4,
     price: "130.00"
   },
   {
-    img: "https://example.com/perfume8.jpg",
+    img: "https://www.shutterstock.com/shutterstock/photos/2137027385/display_1500/stock-photo-portland-oregon-usa-september-acqua-di-gio-armani-men-perfume-illustrative-editorial-2137027385.jpg",
     title: "Armani Acqua di Gio",
     desc: "Refreshing aquatic scent for men.",
     rating: 5,
