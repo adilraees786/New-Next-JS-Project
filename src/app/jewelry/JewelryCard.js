@@ -26,7 +26,7 @@ import React from 'react';
 
 const JewelryCard = ({ img, title, desc, rating, price }) => {
   return (
-    <div className='bg-white shadow-lg rounded-lg overflow-hidden'>
+    <div className='bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform'>
       <img className='w-full h-48 object-cover' src={img} alt={title} />
       <div className='p-4'>
         <h3 className='font-semibold text-lg'>{title}</h3>
