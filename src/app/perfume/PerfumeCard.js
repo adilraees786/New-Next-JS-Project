@@ -1,6 +1,18 @@
 
 
 import React from 'react';
+import { AiFillStar, AiOutlineStar } from "react-icons/ai"
+
+const generateRating = (rating) => {
+    return (
+        <div className='flex gap-1 text-[20px] text-[#FF9529]'>
+            {Array(5).fill(0).map((_, index) => (
+                index < rating ? <AiFillStar key={index} /> : <AiOutlineStar key={index} />
+            ))}
+        </div>
+    );
+};
+
 
 const PerfumeCard = ({ img, title, desc, rating, price }) => {
   return (
@@ -10,8 +22,7 @@ const PerfumeCard = ({ img, title, desc, rating, price }) => {
         <h3 className="font-semibold text-lg">{title}</h3>
         <p className="text-sm text-gray-600">{desc}</p>
         <div className="flex items-center mt-2">
-          <span className="text-yellow-400">{"★".repeat(rating)}</span>
-          <span className="text-gray-400">{"★".repeat(5 - rating)}</span>
+            <div>{generateRating(rating)}</div>
         </div>
         <div className='font-bold flex gap-4 text-lg text-green-600'>
                     ${price} 
