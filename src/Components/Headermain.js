@@ -1,6 +1,6 @@
 
 
-import { Link } from 'lucide-react'
+
 import React from 'react'
 import { FaHeart, FaSearch,  FaShoppingCart, FaUser } from 'react-icons/fa'
 
