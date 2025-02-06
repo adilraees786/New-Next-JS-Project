@@ -1,6 +1,10 @@
 
+
+import { Link } from 'lucide-react'
 import React from 'react'
 import { FaHeart, FaSearch,  FaShoppingCart, FaUser } from 'react-icons/fa'
+
+
 
 
 
@@ -35,12 +39,13 @@ const Headermain = () => {
 
                     </div>
                     <div className=' relative'>
-                        <FaShoppingCart />
+                        
+                        <FaShoppingCart  />
                         <div className=' bg-red-600 rounded-full absolute top-0 right-0 w-[18px] text-[12px]
                         text-white grid place-items-center translate-x-1 -translate-y-1 '>
                             0
                         </div>
-
+                    
                     </div>
                 </div>
 
