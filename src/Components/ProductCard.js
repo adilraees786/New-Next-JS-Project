@@ -17,12 +17,12 @@ const ProductCard = ({ img, title, desc, rating, price }) => {
     return (
         <div className='px-4 border border-gray-200 rounded-xl max-w-[400px] shadow-lg'>
             <div>
-                <Image 
+                <Image
                     className="w-full h-auto rounded-lg"
                     src={img}
                     width={200}
-                    height={300}  
-                    alt={title} 
+                    height={300}
+                    alt={title}
                 />
             </div>
             <div className='space-y-2 py-2'>
@@ -30,10 +30,12 @@ const ProductCard = ({ img, title, desc, rating, price }) => {
                 <p className='text-gray-500 max-w-[150px]'>{desc}</p>
                 <div>{generateRating(rating)}</div>
                 <div className='font-bold flex gap-4 text-lg text-green-600'>
-                    ${price} 
+                    ${price}
                     <del className='text-gray-500 font-normal'>
                         ${parseInt(price) + 50}.00
+                      
                     </del>
+                    
                 </div>
             </div>
         </div>

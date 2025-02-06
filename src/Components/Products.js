@@ -8,7 +8,8 @@ import ProductCard from './ProductCard';
         title: "JACKET",
         desc:"MEN Yarn Fleece Full-Zip Jacket",
         rating: 4,
-        price: "58.00"
+        price: "58.00",
+      
 
     },
     {
@@ -16,7 +17,8 @@ import ProductCard from './ProductCard';
         title: "SKIRT",
         desc:"Black Floral Wrap Midi Skirt",
         rating: 5,
-        price: "80.00"
+        price: "80.00",
+       
 
     },
     {
@@ -24,7 +26,8 @@ import ProductCard from './ProductCard';
         title: "Party Wear",
         desc:"Women's Party Wear Shoes",
         rating: 3,
-        price: "28.00"
+        price: "28.00",
+       
 
     },
     {
@@ -32,7 +35,8 @@ import ProductCard from './ProductCard';
         title: "SHIRT",
         desc:"Pure Garment Dyed Cotton Shirt",
         rating: 4,
-        price: "55.00"
+        price: "55.00",
+      
 
     },
     {
@@ -40,7 +44,8 @@ import ProductCard from './ProductCard';
         title: "SPORTS",
         desc:"Trekking & Running Shoes - Black",
         rating: 4,
-        price: "68.00"
+        price: "68.00",
+      
 
     },
     {
@@ -48,7 +53,8 @@ import ProductCard from './ProductCard';
         title: "Watches",
         desc:"Sports Watches Vital Plus",
         rating: 4,
-        price: "100.00"
+        price: "100.00",
+       
 
     },
     {
@@ -56,7 +62,8 @@ import ProductCard from './ProductCard';
         title: "Watches",
         desc:"Pocket Watch Leather Pouch",
         rating: 4,
-        price: "145.00"
+        price: "145.00",
+       
 
     }
    
@@ -78,6 +85,7 @@ const Products = () => {
                 desc={item.desc}
                 rating={item.rating}
                 price={item.price}
+               
             
                 />
         ))}
