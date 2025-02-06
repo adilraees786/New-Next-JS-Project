@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Headertop from "@/Components/Headertop";
 import Headermain from "@/Components/Headermain";
-import Navbar from "@/Components/Navbar.";
+import Navbar from "@/Components/Navbar";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
