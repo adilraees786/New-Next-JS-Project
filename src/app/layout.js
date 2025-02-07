@@ -3,10 +3,10 @@ import "./globals.css";
 import Headertop from "@/Components/Headertop";
 import Headermain from "@/Components/Headermain";
 import Navbar from "@/Components/Navbar";
-
+import Footer from "@/Components/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Footer from "@/Components/Footer";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
