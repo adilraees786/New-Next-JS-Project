@@ -61,7 +61,6 @@ const HotOfferData = [
   }
 ];
 
-
 const generateRating = (rating) => {
     return (
         <div className='flex gap-1 text-[20px] text-[#FF9529]'>
@@ -111,5 +110,4 @@ const HotOffers = () => {
     </div>
   );
 };
-
 export default HotOffers;
