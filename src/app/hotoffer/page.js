@@ -31,6 +31,7 @@ const HotOfferData = [
     rating: 5,
     price: "2499.00"
   },
+  
   {
     img: "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=500&auto=format&fit=crop&q=60",
     title: "GoPro HERO9",
@@ -38,6 +39,7 @@ const HotOfferData = [
     rating: 4,
     price: "399.00"
   },
+
   {
     img: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&auto=format&fit=crop&q=60",
     title: "Canon EOS R5",
