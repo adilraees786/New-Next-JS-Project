@@ -36,7 +36,6 @@ const Headermain = () => {
                         text-white grid place-items-center translate-x-1 -translate-y-1 '>
                             0
                         </div>
-
                     </div>
                     <div className=' relative'>
                         
@@ -54,3 +53,4 @@ const Headermain = () => {
     )
 }
 export default Headermain;
+
